@@ -33,7 +33,7 @@ z = z.replace({"State_UT":"Tamil  Nadu"},"Tamil Nadu")
 z = z.replace({"State_UT":"Madhya  Pradesh"},"Madhya Pradesh")
 z
 
-#Years in numeric were replaced by String for a hassle free data visualization 
+#Years in numeric were replaced by String - To segegate by year - for a hassle free data visualization 
 def Year(g):
   if g["year"] == "2012-13":
     return "Thirteen"
